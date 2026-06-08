@@ -1,0 +1,6 @@
+{
+  "name": "ifrit-web",
+  "compatibility_date": "2025-06-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": ".open-next/assets"
+}

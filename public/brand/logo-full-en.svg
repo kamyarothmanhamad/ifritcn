@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <!-- Icon mark -->
+  <rect x="0" y="8" width="48" height="48" rx="4" fill="#A90000"/>
+  <rect x="12" y="19" width="24" height="4" rx="0.5" fill="white"/>
+  <rect x="12" y="30" width="18" height="4" rx="0.5" fill="white"/>
+  <rect x="12" y="41" width="24" height="4" rx="0.5" fill="white"/>
+  <rect x="12" y="19" width="4" height="26" rx="0.5" fill="white"/>
+  <!-- IFRIT wordmark -->
+  <text x="64" y="42" font-family="Barlow, system-ui" font-weight="900" font-size="32" letter-spacing="6" fill="white">IFRIT</text>
+  <!-- Arabic -->
+  <text x="64" y="58" font-family="Cairo, system-ui" font-weight="600" font-size="13" fill="#C9A84C">عفريت</text>
+</svg>

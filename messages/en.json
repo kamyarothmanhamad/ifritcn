@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Insights",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "whatsapp": "WhatsApp Us"
+  },
+  "hero": {
+    "tagline": "Strong & Trustworthy",
+    "taglineAr": "قويّ أمينْ",
+    "headline": "Your Trading Partner in Yiwu, China",
+    "subheadline": "End-to-end sourcing, logistics, quality control, and business representation — from the world's wholesale capital to your doorstep.",
+    "cta": "Start Sourcing",
+    "ctaSecondary": "Explore Services",
+    "basedIn": "Based in Yiwu, China"
+  },
+  "trust": {
+    "title": "Why Global Buyers Choose Ifrit",
+    "stat1": { "value": "Yiwu-Based", "label": "On the ground in the world's largest wholesale market" },
+    "stat2": { "value": "End-to-End", "label": "From product finding to your warehouse door" },
+    "stat3": { "value": "Bilingual", "label": "Arabic, English & Chinese — no gaps in communication" },
+    "stat4": { "value": "24h", "label": "Response time guarantee on all enquiries" }
+  },
+  "services": {
+    "title": "What We Do",
+    "subtitle": "Ten service lines across four capability clusters — built for global buyers operating from China.",
+    "viewAll": "View All Services",
+    "enquire": "Enquire About This Service",
+    "cluster1": {
+      "name": "Find & Buy",
+      "desc": "Sourcing, procurement, and Yiwu market expertise"
+    },
+    "cluster2": {
+      "name": "Protect & Ship",
+      "desc": "Quality control, inspection, and logistics"
+    },
+    "cluster3": {
+      "name": "Build & Grow",
+      "desc": "Product development, marketing, and digital services"
+    },
+    "cluster4": {
+      "name": "Represent & Support",
+      "desc": "Consulting, agency, and after-sales support"
+    }
+  },
+  "origin": {
+    "title": "The Name Behind the Brand",
+    "quote": "A mighty one among the jinn said: I will bring it to you before you rise from your place — and indeed I am strong and trustworthy for this.",
+    "quoteSource": "Surah An-Naml, 27:39",
+    "body": "Ifrit takes its name from the Quranic Ifrit — a being that combined extraordinary capability with complete trustworthiness. That is the standard we hold ourselves to: the speed and strength to move anything across the globe, and the integrity to do it exactly as promised.",
+    "slogan": "قويّ أمينْ — Strong & Trustworthy"
+  },
+  "contact": {
+    "title": "Start a Conversation",
+    "subtitle": "Tell us what you need. We respond within 24 hours.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "whatsapp": "WhatsApp Number",
+    "service": "Service of Interest",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your product, quantity, destination, and any specific requirements.",
+    "submit": "Send Enquiry",
+    "submitting": "Sending...",
+    "success": "Your message was sent. We'll respond within 24 hours.",
+    "error": "Something went wrong. Please try WhatsApp instead.",
+    "whatsappCta": "Message on WhatsApp",
+    "orWhatsapp": "Or reach us directly on WhatsApp",
+    "responseTime": "We respond within 24 hours",
+    "location": "Based in Yiwu, Zhejiang, China",
+    "selectService": "Select a service",
+    "allServices": {
+      "sourcing": "Sourcing & Procurement",
+      "qc": "Quality Control & Inspection",
+      "logistics": "Logistics & Shipping",
+      "consulting": "Business Consulting & Company Setup",
+      "productdev": "Product Development",
+      "marketing": "Marketing & Sales",
+      "aftersales": "After-Sales Support",
+      "representation": "Representation & Agency",
+      "digital": "Digital & Tech Services",
+      "niche": "Niche Yiwu Specialty Services"
+    }
+  },
+  "about": {
+    "title": "About Ifrit",
+    "subtitle": "A trading company built on speed, strength, and trustworthiness — rooted in Yiwu, reaching the world.",
+    "storyTitle": "The Origin",
+    "storyBody": "The Ifrit of Surah An-Naml declared two things before performing an extraordinary feat: strength and trustworthiness. We took those two qualities as our founding mandate. Every service we offer, every supplier relationship we maintain, every shipment we handle — held to that standard.",
+    "yiwuTitle": "Why Yiwu",
+    "yiwuBody": "Yiwu is the wholesale capital of the world — 75,000 booths across 5 zones, covering over 400,000 product categories. Being physically based here is not an advantage. It is a prerequisite. We walk these floors daily so you don't have to.",
+    "missionTitle": "Our Mission",
+    "missionBody": "To be the most reliable bridge between global buyers and the Chinese market — removing language barriers, eliminating supplier risk, and delivering exactly what was promised.",
+    "approachTitle": "How We Work",
+    "approachItems": [
+      "Direct communication — no account managers or ticket systems",
+      "Full documentation on every order",
+      "Problems reported immediately, never hidden",
+      "Recommendations based on your interest, not our margin"
+    ]
+  },
+  "footer": {
+    "tagline": "Strong & Trustworthy",
+    "services": "Services",
+    "company": "Company",
+    "about": "About Ifrit",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "basedIn": "Yiwu, China"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "body": "The page you're looking for doesn't exist or has been moved.",
+    "home": "Back to Home",
+    "whatsapp": "Contact via WhatsApp"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hi Ifrit, I found your website and I'd like to enquire about your services."
+  }
+}

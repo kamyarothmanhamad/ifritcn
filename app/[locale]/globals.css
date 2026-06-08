@@ -1,0 +1,340 @@
+@import "tailwindcss";
+
+/* ── Self-hosted fonts ─────────────────────────────────────────── */
+
+/* Barlow — EN headings and body (latin subset) */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/barlow-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/barlow-500.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/barlow-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/barlow-700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/barlow-800.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/barlow-900.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Cairo — AR body and headings (arabic + latin subsets) */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cairo-arabic-400.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891,
+                 U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011,
+                 U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC,
+                 U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF,
+                 U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24,
+                 U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B,
+                 U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F,
+                 U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B,
+                 U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A,
+                 U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E,
+                 U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9,
+                 U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cairo-latin-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/cairo-arabic-600.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891,
+                 U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011,
+                 U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/cairo-latin-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/cairo-arabic-700.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891,
+                 U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011,
+                 U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/cairo-latin-700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/cairo-arabic-800.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891,
+                 U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011,
+                 U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/cairo-latin-800.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+                 U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+                 U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ── Tailwind v4 theme tokens ─────────────────────────────────── */
+@theme {
+  /* Brand colours — all variants actually used in components */
+  --color-crimson:          #A90000;
+  --color-crimson-light:    #c70000;
+  --color-crimson-dark:     #8a0000;
+  --color-charcoal:         #181717;
+  --color-charcoal-light:   #242323;
+  --color-charcoal-lighter: #2e2d2d;
+  --color-gold:             #C9A84C;
+  --color-gold-light:       #e0c06a;
+  --color-gold-dark:        #a8882e;
+
+  /* Fonts — names must match @font-face font-family exactly */
+  --font-sans:   'Barlow', system-ui, sans-serif;
+  --font-arabic: 'Cairo', system-ui, sans-serif;
+
+  /* Named animations — registered so Tailwind generates the utilities */
+  --animate-fade-up:   fadeUp 0.7s ease forwards;
+  --animate-fade-in:   fadeIn 0.5s ease forwards;
+  --animate-shimmer:   shimmer 4s linear infinite;
+}
+
+/* ── Keyframes ─────────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+/* ── Base reset ───────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--color-charcoal);
+  color: #fff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Arabic pages use Cairo for all text */
+[dir="rtl"] body,
+[dir="rtl"] * {
+  font-family: var(--font-arabic);
+}
+
+::selection { background: var(--color-crimson); color: #fff; }
+
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-charcoal); }
+::-webkit-scrollbar-thumb { background: var(--color-crimson); border-radius: 3px; }
+
+/* ── Animation utility classes ────────────────────────────────── */
+.animate-fade-up { animation: fadeUp  0.7s ease forwards; }
+.animate-fade-in { animation: fadeIn  0.5s ease forwards; }
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+
+/* ── Gold shimmer text ────────────────────────────────────────── */
+.text-gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-gold-light) 0%,
+    var(--color-gold)       40%,
+    #fff                    50%,
+    var(--color-gold)       60%,
+    var(--color-gold-light) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+/* ── Diagonal speed-line hero background ─────────────────────── */
+.speed-lines {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 40px,
+    rgba(169, 0, 0, 0.025) 40px,
+    rgba(169, 0, 0, 0.025) 41px
+  );
+}
+
+/* ── RTL layout helpers ───────────────────────────────────────── */
+[dir="rtl"] .ltr-only { display: none; }
+[dir="ltr"] .rtl-only { display: none; }
+
+/* ── Blog / article prose styles ─────────────────────────────── */
+.prose-ifrit {
+  color: rgba(255,255,255,0.70);
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.prose-ifrit p {
+  margin-bottom: 1.35em;
+}
+
+.prose-ifrit h2 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.01em;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.prose-ifrit h3 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: rgba(255,255,255,0.90);
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.prose-ifrit ul,
+.prose-ifrit ol {
+  margin-bottom: 1.35em;
+  padding-inline-start: 1.5em;
+}
+
+.prose-ifrit li {
+  margin-bottom: 0.45em;
+  color: rgba(255,255,255,0.60);
+}
+
+.prose-ifrit li::marker {
+  color: var(--color-crimson);
+}
+
+.prose-ifrit strong {
+  font-weight: 700;
+  color: rgba(255,255,255,0.90);
+}
+
+.prose-ifrit a {
+  color: var(--color-crimson);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s;
+}
+.prose-ifrit a:hover {
+  color: #c90000;
+}
+
+.prose-ifrit blockquote {
+  border-inline-start: 3px solid var(--color-crimson);
+  padding-inline-start: 1.25em;
+  color: rgba(255,255,255,0.45);
+  font-style: italic;
+  margin: 1.75em 0;
+}
+
+.prose-ifrit code {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-size: 0.875em;
+  color: rgba(255,255,255,0.85);
+}
+
+[dir="rtl"] .prose-ifrit {
+  font-family: var(--font-arabic);
+}

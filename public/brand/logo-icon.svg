@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Geometric Ifrit emblem: diamond/flame form with Arabic E (ع) negative space -->
+  <rect width="80" height="80" rx="8" fill="#A90000"/>
+  <!-- Speed lines -->
+  <line x1="0" y1="20" x2="20" y2="0" stroke="white" stroke-width="0.5" stroke-opacity="0.15"/>
+  <line x1="0" y1="36" x2="36" y2="0" stroke="white" stroke-width="0.5" stroke-opacity="0.15"/>
+  <line x1="0" y1="52" x2="52" y2="0" stroke="white" stroke-width="0.5" stroke-opacity="0.15"/>
+  <!-- E letterform, bold geometric -->
+  <rect x="20" y="22" width="40" height="6" rx="1" fill="white"/>
+  <rect x="20" y="37" width="30" height="6" rx="1" fill="white"/>
+  <rect x="20" y="52" width="40" height="6" rx="1" fill="white"/>
+  <rect x="20" y="22" width="6" height="36" rx="1" fill="white"/>
+</svg>
